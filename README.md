@@ -1,7 +1,6 @@
+Monokai is a Gtk3.20+ theme created using the Monokai color pallete and based on Nordic https://github.com/EliverLara/Nordic.
 
-![](Art/nordic.png)
-
-> Nordic is a Gtk3.20+ theme created using the awesome [Nord](https://github.com/arcticicestudio/nord) color pallete.
+Work is still in progress!
 
 #### Installation
 
