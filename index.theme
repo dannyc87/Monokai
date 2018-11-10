@@ -5,7 +5,7 @@ Comment=Dark theme created using the awesome Nord color pallete
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Snow
-MetacityTheme=Nordic
-IconTheme=Zafiro-icons
+GtkTheme=Monokai
+MetacityTheme=Monokai
+IconTheme=Papirus-icons
 ButtonLayout=:minimize,maximize,close
