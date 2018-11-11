@@ -66,7 +66,7 @@ $suggested_color: if($variant == 'light', $selected_bg_color, darken($selected_b
 
 $osd_fg_color: $fg_color;
 $osd_text_color: $text_color;
-$osd_bg_color:  transparentize(darken($main_dark_color, 3%), 0.07);
+$osd_bg_color: transparentize(darken($main_dark_color, 3%), 0.07);
 $osd_insensitive_bg_color: transparentize(mix($osd_fg_color, opacify($osd_bg_color, 1), 10%), 0.5);
 $osd_insensitive_fg_color: mix($osd_fg_color, opacify($osd_bg_color, 1), 50%);
 $osd_borders_color: $borders_color;
@@ -100,9 +100,9 @@ $insensitive_base_color: darken($base_color, 5%);
 $insensitive_borders_color: $borders_color;
 
 // Backdrop state colors
-$backdrop_base_color: if($variant == 'light', darken($base_color, 1%), lighten($base_color, 1%));
+$backdrop_base_color: if($variant == 'light', darken($base_color, 1%), darken($bg_color, 10%));
 $backdrop_text_color: mix($text_color, $backdrop_base_color, 80%);
-$backdrop_bg_color: $bg_color;
+$backdrop_bg_color: darken($bg_color, 5%);
 $backdrop_headerbar_bg_color: $headerbar_color;
 $backdrop_headerbar_fg_color: if($variant == 'light', transparentize($headerbar_fg_color, 0.5), transparentize($headerbar_fg_color, 0.2));
 $backdrop_fg_color: mix($fg_color, $backdrop_bg_color, 50%);

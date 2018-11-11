@@ -9,7 +9,7 @@
       label {
         color: $selected_bg_color;
       }
-    } 
+    }
   }
   paned {
     > separator { background-image: none; }
@@ -56,7 +56,7 @@
 
   notebook {
     > stack:only-child { // the :not(:only-child) is for "hidden" notebooks
-        background-color: $base_color;
+        background-color: $backdrop_bg_color;
         &:backdrop { background-color: $backdrop_base_color; }
     }
   }
@@ -64,7 +64,7 @@
   searchbar {
     border-top: 1px solid rgba(0, 0, 0, 0.12);
   }
-  
+
  .searchbar-container {
     margin-top: -1px;
   }
