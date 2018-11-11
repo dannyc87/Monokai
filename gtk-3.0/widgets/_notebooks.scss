@@ -40,8 +40,8 @@
 
           &:backdrop { box-shadow: none; }
 
-          &:checked { 
-            background-color: $base_color; 
+          &:checked {
+            background-color: $base_color;
             box-shadow: -1px 0 0 $borders_color,
             0px 1px 0 $borders_color,
             1px 0 0 $borders_color;
@@ -59,8 +59,8 @@
 
           &:backdrop { box-shadow: none; }
 
-         &:checked { 
-            background-color: $base_color; 
+         &:checked {
+            background-color: $base_color;
             box-shadow: 0px 1px 0 $borders_color,
             0px -1px 0 $borders_color,
             0px 1px 0 $borders_color;
@@ -78,8 +78,8 @@
 
           &:backdrop { box-shadow: none; }
 
-          &:checked { 
-            background-color: $base_color; 
+          &:checked {
+            background-color: $base_color;
             box-shadow: 0px 1px 0 $borders_color,
             0px -1px 0 $borders_color,
             1px 0 0 $borders_color;
@@ -282,8 +282,7 @@
   }
 
   > stack:not(:only-child) { // the :not(:only-child) is for "hidden" notebooks
-    background-color: $base_color;
-
+    background-color: $backdrop_bg_color;
     &:backdrop { background-color: $backdrop_base_color; }
   }
 }
