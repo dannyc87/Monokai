@@ -24,21 +24,8 @@ $cyan: $monokai_cyan;
 $teal: $nord14;
 $white: $monokai_white;
 
-// // Primary colors
-// $lime: $nord7;
-// $red: $nord11;
-// $orange: $nord12;
-// $yellow: $nord13;
-// $purple: $nord15;
-// $darkpurple: #7b7bbd;
-// $blue: $nord10;
-// $cyan: $nord8;
-// $slider: #7b7bbd;
-// $teal: $nord14;
-
 $selected_fg_color: $white;
 $selected_bg_color: $red;
-/*$selected_bg_color: #00e8c6;06d6a0*/
 $selected_borders_color: darken($selected_bg_color, 10%);
 $borders_color: darken($main_dark_color, 5%);
 $borders_edge: if($variant == 'light', transparentize(white, 0.8), transparentize(white, 0.9));
@@ -86,7 +73,7 @@ $drop_target_color: #4e9a06;
 
 // Infobar colors
 $info_color: $lime;
-$question_color: $purple;
+$question_color: $yellow;
 
 // Panel colors
 $panel_bg_color: transparentize(black, 0.3);
@@ -120,6 +107,6 @@ $backdrop_menu_color: if($variant == 'light', $backdrop_base_color, mix($backdro
 
 $scale_bg: if($variant == 'light', transparentize(black,0.86) ,transparentize(white,0.86));
 $scale_disabled_bg: if($variant == 'light', transparentize(black, 0.94) ,transparentize(white, 0.94));
-$suggested_bg_color: linear-gradient(to right, $purple 0%, $purple 100%);
-$destructive_bg_color: linear-gradient(to right, darken($red, 10%), darken($red, 10%));
+$suggested_bg_color: $yellow;
+$destructive_bg_color: $red;
 $menu_shadow_color: if($variant == 'light', transparentize(rgb(122, 122, 122), 0.6), transparent);

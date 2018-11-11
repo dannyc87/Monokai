@@ -592,13 +592,13 @@ button.suggested-action {
   box-shadow: none;
   color: white;
   border-radius: 4px;
-  background: linear-gradient(to right, #AE81FF 0%, #AE81FF 100%); }
+  background: #F4BF75; }
   .selection-mode button.titlebutton,
   button.suggested-action.flat {
     box-shadow: none;
     color: white;
     border-radius: 4px;
-    background: linear-gradient(to right, #AE81FF 0%, #AE81FF 100%); }
+    background: #F4BF75; }
   
   button.suggested-action:hover {
     color: white;
@@ -742,13 +742,13 @@ button.destructive-action {
   box-shadow: none;
   color: white;
   border-radius: 4px;
-  background: linear-gradient(to right, #e60657, #e60657); }
+  background: #F92672; }
   
   button.destructive-action.flat {
     box-shadow: none;
     color: white;
     border-radius: 4px;
-    background: linear-gradient(to right, #AE81FF 0%, #AE81FF 100%); }
+    background: #F4BF75; }
   
   button.destructive-action:hover {
     color: white;
@@ -2316,13 +2316,13 @@ headerbar {
     headerbar button.suggested-action {
       box-shadow: none;
       border: none;
-      background-image: linear-gradient(to right, #AE81FF 0%, #AE81FF 100%); }
+      background-image: #F4BF75; }
       .titlebar button.suggested-action:disabled, .titlebar button.suggested-action:disabled:backdrop, .titlebar button.suggested-action:backdrop,
       headerbar button.suggested-action:disabled,
       headerbar button.suggested-action:disabled:backdrop,
       headerbar button.suggested-action:backdrop {
         border: none;
-        background-image: linear-gradient(to right, #AE81FF 0%, #AE81FF 100%); }
+        background-image: #F4BF75; }
         .titlebar button.suggested-action:disabled:hover, .titlebar button.suggested-action:disabled:active, .titlebar button.suggested-action:disabled:checked, .titlebar button.suggested-action:disabled:backdrop:hover, .titlebar button.suggested-action:disabled:backdrop:active, .titlebar button.suggested-action:disabled:backdrop:checked, .titlebar button.suggested-action:backdrop:hover, .titlebar button.suggested-action:backdrop:active, .titlebar button.suggested-action:backdrop:checked,
         headerbar button.suggested-action:disabled:hover,
         headerbar button.suggested-action:disabled:active,
@@ -2334,7 +2334,7 @@ headerbar {
         headerbar button.suggested-action:backdrop:active,
         headerbar button.suggested-action:backdrop:checked {
           border: none;
-          background-image: linear-gradient(to right, #AE81FF 0%, #AE81FF 100%); }
+          background-image: #F4BF75; }
     .titlebar button.appmenu,
     headerbar button.appmenu {
       background: transparent; }
@@ -2720,9 +2720,9 @@ infobar {
     color: rgba(248, 248, 242, 0.5); }
 
 .question {
-  background-color: #AE81FF; }
+  background-color: #F4BF75; }
   .question:backdrop {
-    background-color: #cfb4ff;
+    background-color: #f8d5a4;
     color: rgba(248, 248, 242, 0.5); }
 
 .error {
@@ -4775,7 +4775,7 @@ entry selection, row:selected, treeview.view:selected:focus, treeview.view:selec
     box-shadow: inset 0 2px 2px -2px rgba(0, 0, 0, 0.2); }
   .budgie-menu .category-button:checked {
     color: #F8F8F2;
-    background: linear-gradient(to right, #AE81FF 0%, #AE81FF 100%); }
+    background: #F4BF75; }
   .budgie-menu .category-button:checked:disabled {
     opacity: 0.5; }
     .budgie-menu .category-button:checked:disabled label {
@@ -5248,13 +5248,13 @@ button.raven-trigger {
       background: #7b7bbd;
       color: #F8F8F2; }
     .raven .powerstrip button.image-button:first-child {
-      background: linear-gradient(to right, #AE81FF 0%, #AE81FF 100%); }
+      background: #F4BF75; }
       .raven .powerstrip button.image-button:first-child:hover {
         background: #a1efe4; }
       .raven .powerstrip button.image-button:first-child:active {
         background: #A1EFE4; }
     .raven .powerstrip button.image-button:last-child {
-      background: linear-gradient(to right, #e60657, #e60657); }
+      background: #F92672; }
       .raven .powerstrip button.image-button:last-child:hover {
         background: #f92672; }
       .raven .powerstrip button.image-button:last-child:active {
