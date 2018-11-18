@@ -6,7 +6,7 @@
     padding: 1px;
     border-color: $borders_color;
     border-width: 1px;
-    background-color: darken($base_color, 5%);
+    background-color: $bg_color;
 
     &:backdrop {
       border-color: $backdrop_borders_color;
@@ -24,8 +24,8 @@
           &:backdrop { box-shadow: none; }
 
           &:checked {
-              background-color: $base_color;
-              &:hover{background-color: $base_color;}
+              background-color: darken($bg_color, 5%);
+              &:hover{background-color: darken($bg_color, 5%);}
           }
         }
       }
@@ -41,7 +41,7 @@
           &:backdrop { box-shadow: none; }
 
           &:checked {
-            background-color: $base_color;
+            background-color: darken($bg_color, 5%);
             box-shadow: -1px 0 0 $borders_color,
             0px 1px 0 $borders_color,
             1px 0 0 $borders_color;
@@ -60,7 +60,7 @@
           &:backdrop { box-shadow: none; }
 
          &:checked {
-            background-color: $base_color;
+            background-color: darken($bg_color, 5%);
             box-shadow: 0px 1px 0 $borders_color,
             0px -1px 0 $borders_color,
             0px 1px 0 $borders_color;
@@ -79,7 +79,7 @@
           &:backdrop { box-shadow: none; }
 
           &:checked {
-            background-color: $base_color;
+            background-color: darken($bg_color, 5%);
             box-shadow: 0px 1px 0 $borders_color,
             0px -1px 0 $borders_color,
             1px 0 0 $borders_color;
