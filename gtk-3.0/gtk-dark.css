@@ -14,9 +14,9 @@
 /* text/foreground color of selections */
 @define-color theme_selected_fg_color #F8F8F2;
 /* base background color of disabled widgets */
-@define-color insensitive_bg_color #32322c;
+@define-color insensitive_bg_color #24211f;
 /* text foreground color of disabled widgets */
-@define-color insensitive_fg_color #a3a09a;
+@define-color insensitive_fg_color #322e2a;
 /* disabled text widgets and the like base background color */
 @define-color insensitive_base_color #272822;
 /* widget text/foreground color on backdrop windows */
@@ -150,8 +150,8 @@ read if you used those and something break with a version upgrade you're on your
     color: #F8F8F2;
     background-color: #322e2a; }
   .gtkstyle-fallback:disabled {
-    color: #a3a09a;
-    background-color: #32322c; }
+    color: #322e2a;
+    background-color: #24211f; }
   .gtkstyle-fallback:selected {
     color: #F8F8F2;
     background-color: #F92672; }
@@ -204,7 +204,7 @@ label {
     background-color: #F92672;
     color: #F8F8F2; }
   label:disabled {
-    color: #a3a09a; }
+    color: #322e2a; }
     label:disabled:backdrop {
       color: #68625a; }
   label:backdrop {
@@ -329,7 +329,7 @@ button {
     button:backdrop:disabled {
       color: #d0d0ca;
       outline-color: rgba(248, 248, 242, 0.3);
-      background-color: #32322c;
+      background-color: #24211f;
       text-shadow: none; }
       notebook > header > tabs > arrow:backdrop:disabled:active, notebook > header > tabs > arrow:backdrop:disabled:checked, notebook > header > tabs > arrow:backdrop:disabled:active, notebook > header > tabs > arrow:backdrop:disabled:checked,
       button:backdrop.flat:disabled:active,
@@ -354,7 +354,7 @@ button {
   button:disabled {
     color: #d0d0ca;
     outline-color: rgba(248, 248, 242, 0.3);
-    background-color: #32322c;
+    background-color: #24211f;
     text-shadow: none; }
     notebook > header > tabs > arrow:disabled:active, notebook > header > tabs > arrow:disabled:checked,
     button:disabled:active,
@@ -1113,7 +1113,7 @@ calendar {
     calendar.button:backdrop {
       color: rgba(156, 154, 148, 0.45); }
     calendar.button:disabled {
-      color: rgba(163, 160, 154, 0.45); }
+      color: rgba(50, 46, 42, 0.45); }
   calendar:indeterminate, calendar:indeterminate:backdrop {
     color: alpha(currentColor,0.55); }
   calendar.highlight, calendar.highlight:backdrop {
@@ -1741,9 +1741,9 @@ entry {
     border-color: #e60657; }
   spinbutton:disabled:not(.vertical),
   entry:disabled {
-    color: #a3a09a;
+    color: #322e2a;
     border-color: #1a1a16;
-    background-color: #32322c;
+    background-color: #24211f;
     box-shadow: none; }
   spinbutton:backdrop:not(.vertical),
   entry:backdrop {
@@ -1756,7 +1756,7 @@ entry {
   entry:backdrop:disabled {
     color: #68625a;
     border-color: #1f1f1b;
-    background-color: #32322c;
+    background-color: #24211f;
     box-shadow: none; }
   spinbutton.error:not(.vertical),
   entry.error {
@@ -2881,7 +2881,7 @@ menubar,
       box-shadow: inset 0 -3px #F92672; }
     menubar > menuitem:disabled,
     .menubar > menuitem:disabled {
-      color: #a3a09a;
+      color: #322e2a;
       box-shadow: none; }
 
 menu,
@@ -2914,7 +2914,7 @@ menu,
     menu menuitem:disabled,
     .menu menuitem:disabled,
     .context-menu menuitem:disabled {
-      color: #a3a09a; }
+      color: #322e2a; }
       menu menuitem:disabled:backdrop,
       .menu menuitem:disabled:backdrop,
       .context-menu menuitem:disabled:backdrop {
@@ -3140,12 +3140,12 @@ notebook > header {
     min-width: 24px;
     padding: 1px 12px;
     outline-offset: -5px;
-    color: #a3a09a;
+    color: #322e2a;
     font-weight: normal;
     border-width: 1px;
     border-color: transparent; }
     notebook > header tab:hover {
-      color: #ceccc6; }
+      color: #95938e; }
       notebook > header tab:hover.reorderable-page {
         border-color: rgba(26, 26, 22, 0.3);
         background-color: rgba(77, 72, 66, 0.2); }
@@ -3412,7 +3412,7 @@ scale {
     scale slider:active {
       background-color: #F92672; }
       scale slider:active:disabled {
-        background-color: #32322c;
+        background-color: #24211f;
         box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.05); }
   scale.fine-tune.horizontal {
     padding-top: 9px;
@@ -4130,7 +4130,7 @@ spinbutton:not(.vertical) {
       color: #F8F8F2;
       background-color: rgba(248, 248, 242, 0.05); }
     spinbutton:not(.vertical) button:disabled {
-      color: rgba(163, 160, 154, 0.3); }
+      color: rgba(50, 46, 42, 0.3); }
     spinbutton:not(.vertical) button:active {
       background-color: rgba(0, 0, 0, 0.1);
       box-shadow: inset 0 2px 3px -1px rgba(0, 0, 0, 0.2); }
@@ -4205,7 +4205,7 @@ spinbutton:not(.vertical) {
     border-radius: 3px 0 0 3px; }
 
 spinbutton.vertical:disabled {
-  color: #a3a09a; }
+  color: #322e2a; }
 
 spinbutton.vertical:backdrop:disabled {
   color: #68625a; }
@@ -4324,11 +4324,13 @@ switch {
   border: 1px solid rgba(170, 170, 170, 0.4); }
   switch:disabled {
     background-color: #3f3b36; }
+    switch:disabled slider {
+      background-color: rgba(170, 170, 170, 0.4); }
   switch:backdrop {
-    background-color: #32322c;
+    background-color: #24211f;
     transition: 200ms ease-out; }
     switch:backdrop:disabled {
-      background-color: #3f3b36; }
+      background-color: #322e2a; }
   switch:active, switch:checked {
     border: 1px solid #F92672; }
     switch:active slider, switch:checked slider {
@@ -4452,7 +4454,7 @@ treeview.view {
     border-left-color: #f98fb2;
     border-top-color: rgba(248, 248, 242, 0.1); }
   treeview.view:disabled {
-    color: #a3a09a; }
+    color: #322e2a; }
     treeview.view:disabled:selected {
       color: #f97aa5; }
       treeview.view:disabled:selected:backdrop {
@@ -5207,7 +5209,7 @@ button.raven-trigger {
         border-radius: 0;
         background: #2f2e28; }
       .raven .raven-header button:disabled {
-        color: #a3a09a; }
+        color: #322e2a; }
   .raven list {
     background-color: transparent; }
     .raven list:selected {
@@ -5986,7 +5988,7 @@ ConversationListView {
   #content_frame button:disabled {
     color: #d0d0ca;
     outline-color: rgba(248, 248, 242, 0.3);
-    background-color: #32322c;
+    background-color: #24211f;
     text-shadow: none; }
 
 #buttonbox_frame {

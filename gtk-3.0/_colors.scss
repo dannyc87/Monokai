@@ -89,8 +89,8 @@ $panel_fg_color: white;
 $panel_borders_color: transparentize(black, 0.8);
 
 // Disabled state colors
-$insensitive_fg_color: mix($fg_color, $bg_color, 50%);
-$insensitive_bg_color: mix($bg_color, $base_color, 30%);
+$insensitive_fg_color: darken($bg_color, 10%);
+$insensitive_bg_color: darken($bg_color, 15%);
 $insensitive_base_color: darken($base_color, 5%);
 $insensitive_borders_color: $borders_color;
 

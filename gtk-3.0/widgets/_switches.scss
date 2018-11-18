@@ -17,20 +17,24 @@ switch {
 
   &:disabled {
     background-color: $backdrop_bg_color;
+
+    slider {
+      background-color: rgba(170, 170, 170, 0.4);
+    }
   }
 
   &:backdrop {
     background-color: $insensitive_bg_color;
     transition: $backdrop_transition;
 
-    &:disabled { background-color: $backdrop_bg_color; }
+    &:disabled { background-color: darken($backdrop_bg_color, 5%); }
   }
 
 
   &:active,
   &:checked {
     border: 1px solid $selected_bg_color;
-    slider{
+    slider {
       background: $selected_bg_color;
     }
     &:backdrop {
@@ -52,7 +56,6 @@ switch {
     margin: 0 2.3px;
     min-width: 12px;
     min-height: 12px;
-
     border-radius: 100%;
     transition: $button_transition;
     background-color: $white;
