@@ -2768,9 +2768,9 @@ levelbar block {
     levelbar block.low:backdrop {
       border-color: #e77e02; }
   levelbar block.high, levelbar block:not(.empty) {
-    background-color: #A1EFE4; }
+    background-color: #AE81FF; }
     levelbar block.high:backdrop, levelbar block:not(.empty):backdrop {
-      border-color: #A1EFE4; }
+      border-color: #AE81FF; }
   levelbar block.full {
     background-color: #8ac21b; }
     levelbar block.full:backdrop {

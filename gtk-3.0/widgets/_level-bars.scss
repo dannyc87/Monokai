@@ -43,9 +43,9 @@ levelbar {
 
     &.high,
     &:not(.empty) {
-      background-color: $cyan;
+      background-color: $purple;
 
-      &:backdrop { border-color: $cyan; }
+      &:backdrop { border-color: $purple; }
     }
 
     &.full {

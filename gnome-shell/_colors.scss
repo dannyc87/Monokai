@@ -4,6 +4,7 @@ $main_dark: darken($bg_color, 5%);
 $gray: $monokai_grey;
 $fg_color: $monokai_white;
 $topbar_color: #d8dee9;
+$accent_color: $monokai_pink;
 
 $lime: $monokai_green;
 $red: $monokai_pink;
@@ -15,16 +16,16 @@ $selected_bg_color: $red;
 $selected_borders_color: darken($selected_bg_color, 10%);
 $borders_color: darken(#2e3440, 7%);
 $borders_edge: transparentize(white, 0.9);
-$link_color: $cyan;
+$link_color: $accent_color;
 $link_visited_color: transparentize($link_color,0.5);
 $top_hilight: $borders_edge;
 $top_highlight: transparentize(white, 0.9);
 $bottom_highlight: transparentize(black, 0.9);
 
-$warning_color: darken(#d08770,10%);
-$error_color: darken( $red,5%);
-$success_color: darken($cyan,10%);
-$destructive_color: darken( #c72240,10%);
+$warning_color: darken($monokai_gold, 5%);
+$error_color: $monokai_orange;
+$success_color: $monokai_green;
+$destructive_color: darken($monokai_orange, 10%);
 
 $osd_fg_color: $fg_color;
 $osd_bg_color: transparentize($bg_color, 0.05);
