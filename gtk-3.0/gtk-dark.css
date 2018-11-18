@@ -14,7 +14,7 @@
 /* text/foreground color of selections */
 @define-color theme_selected_fg_color #F8F8F2;
 /* base background color of disabled widgets */
-@define-color insensitive_bg_color #3e3b35;
+@define-color insensitive_bg_color #32322c;
 /* text foreground color of disabled widgets */
 @define-color insensitive_fg_color #939396;
 /* disabled text widgets and the like base background color */
@@ -38,7 +38,7 @@
 /* these are pretty self explicative */
 @define-color warning_color #e77e02;
 @define-color error_color #f80d62;
-@define-color success_color #75e8d7;
+@define-color success_color #8ac21b;
 /* these colors are exported for the window manager and shouldn't be used in applications,
 read if you used those and something break with a version upgrade you're on your own... */
 @define-color wm_title shade(#d8dee9, 1.8);
@@ -151,7 +151,7 @@ read if you used those and something break with a version upgrade you're on your
     background-color: #322e2a; }
   .gtkstyle-fallback:disabled {
     color: #939396;
-    background-color: #3e3b35; }
+    background-color: #32322c; }
   .gtkstyle-fallback:selected {
     color: #F8F8F2;
     background-color: #F92672; }
@@ -329,7 +329,7 @@ button {
     button:backdrop:disabled {
       color: #d0d0ca;
       outline-color: rgba(248, 248, 242, 0.3);
-      background-color: #3e3b35;
+      background-color: #32322c;
       text-shadow: none; }
       notebook > header > tabs > arrow:backdrop:disabled:active, notebook > header > tabs > arrow:backdrop:disabled:checked, notebook > header > tabs > arrow:backdrop:disabled:active, notebook > header > tabs > arrow:backdrop:disabled:checked,
       button:backdrop.flat:disabled:active,
@@ -354,7 +354,7 @@ button {
   button:disabled {
     color: #d0d0ca;
     outline-color: rgba(248, 248, 242, 0.3);
-    background-color: #3e3b35;
+    background-color: #32322c;
     text-shadow: none; }
     notebook > header > tabs > arrow:disabled:active, notebook > header > tabs > arrow:disabled:checked,
     button:disabled:active,
@@ -1743,7 +1743,7 @@ entry {
   entry:disabled {
     color: #939396;
     border-color: #1a1a16;
-    background-color: #3e3b35;
+    background-color: #32322c;
     box-shadow: none; }
   spinbutton:backdrop:not(.vertical),
   entry:backdrop {
@@ -1756,7 +1756,7 @@ entry {
   entry:backdrop:disabled {
     color: #68625a;
     border-color: #1f1f1b;
-    background-color: #3e3b35;
+    background-color: #32322c;
     box-shadow: none; }
   spinbutton.error:not(.vertical),
   entry.error {
@@ -2303,7 +2303,7 @@ headerbar {
     text-shadow: none;
     box-shadow: none;
     border: 1px solid #1a1a16;
-    background: linear-gradient(to bottom, #4D4842, #4D4842);
+    background: linear-gradient(to bottom, #272822, #272822);
     min-height: 14px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -2356,7 +2356,7 @@ headerbar {
       border-radius: 0;
       text-shadow: none;
       box-shadow: none;
-      background-image: linear-gradient(to bottom, #4D4842, #4D4842);
+      background-image: linear-gradient(to bottom, #272822, #272822);
       border: 1px solid #1a1a16;
       border-radius: 4px; }
     .titlebar button:backdrop:hover, .titlebar button:backdrop:active, .titlebar button:backdrop:checked,
@@ -2707,9 +2707,9 @@ infobar {
       box-shadow: none; }
 
 .info {
-  background-color: #A6E22E; }
+  background-color: #AE81FF; }
   .info:backdrop {
-    background-color: #b9e85b;
+    background-color: #cfb4ff;
     color: rgba(248, 248, 242, 0.5); }
 
 .warning {
@@ -2772,9 +2772,9 @@ levelbar block {
     levelbar block.high:backdrop, levelbar block:not(.empty):backdrop {
       border-color: #A1EFE4; }
   levelbar block.full {
-    background-color: #75e8d7; }
+    background-color: #8ac21b; }
     levelbar block.full:backdrop {
-      border-color: #75e8d7; }
+      border-color: #8ac21b; }
   levelbar block.empty {
     background-color: rgba(0, 0, 0, 0.35);
     box-shadow: none; }
@@ -3412,7 +3412,7 @@ scale {
     scale slider:active {
       background-color: #F92672; }
       scale slider:active:disabled {
-        background-color: #3e3b35;
+        background-color: #32322c;
         box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.05); }
   scale.fine-tune.horizontal {
     padding-top: 9px;
@@ -4323,12 +4323,12 @@ switch {
   background-color: rgba(0, 0, 0, 0);
   border: 1px solid rgba(170, 170, 170, 0.4); }
   switch:disabled {
-    background-color: #3e3b35; }
+    background-color: #32322c; }
   switch:backdrop {
     background-color: #3f3b36;
     transition: 200ms ease-out; }
     switch:backdrop:disabled {
-      background-color: #3e3b35; }
+      background-color: #32322c; }
   switch:active, switch:checked {
     border: 1px solid #a3be8c; }
     switch:active slider, switch:checked slider {
@@ -5986,7 +5986,7 @@ ConversationListView {
   #content_frame button:disabled {
     color: #d0d0ca;
     outline-color: rgba(248, 248, 242, 0.3);
-    background-color: #3e3b35;
+    background-color: #32322c;
     text-shadow: none; }
 
 #buttonbox_frame {

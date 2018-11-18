@@ -55,7 +55,7 @@ $scrollbar_slider_active_color: if($variant=='light', darken($selected_bg_color,
 
 $warning_color: if($variant == 'light', $orange, darken($orange,10%));
 $error_color: if($variant == 'light', $red, darken($red,5%));
-$success_color: if($variant == 'light', $cyan, darken($cyan,10%));
+$success_color: if($variant == 'light', $lime, darken($lime,10%));
 $destructive_color: if($variant == 'light', darken($red,5%), darken($red,10%));
 $suggested_color: if($variant == 'light', $selected_bg_color, darken($selected_bg_color,10%));
 
@@ -80,7 +80,7 @@ $icon_shadow_color: $text_shadow_color;
 $drop_target_color: #4e9a06;
 
 // Infobar colors
-$info_color: $lime;
+$info_color: $purple;
 $question_color: $yellow;
 
 // Panel colors
@@ -90,7 +90,7 @@ $panel_borders_color: transparentize(black, 0.8);
 
 // Disabled state colors
 $insensitive_fg_color: mix($fg_color, $bg_color, 50%);
-$insensitive_bg_color: mix($bg_color, $base_color, 60%);
+$insensitive_bg_color: mix($bg_color, $base_color, 30%);
 $insensitive_base_color: darken($base_color, 5%);
 $insensitive_borders_color: $borders_color;
 
