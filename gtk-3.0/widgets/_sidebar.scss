@@ -35,10 +35,10 @@
     padding: 8px 12px;
     transition: all .12s ease-in;
     label{
-      color: #98abb2;
+      color: $monokai_white;
     }
     &:selected{
-      color: #fff;
+      color: $monokai_pink;
       // border-left: 4px solid $selected_bg_color;
       &:backdrop{
         color: $backdrop_selected_bg_color;
@@ -135,7 +135,7 @@ placessidebar{
 						margin-right: 12px;
 						padding-left: 14px;
 						padding-right: 12px;
-						color: #98abb2;
+						color: $monokai_white;
 					}
 				}
 				&:hover{
@@ -165,7 +165,7 @@ placessidebar{
 						}
           }
           &:backdrop{
-            color: rgba(0,0,0,0.54);;
+            color: rgba(0,0,0,0.54);
             background-color: transparent;
             background-image:linear-gradient(to right, $selected_bg_color 40px,
                                   rgba(65,67,75,0) 36px, rgba(65,67,75,0)97%);

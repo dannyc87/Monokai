@@ -16,26 +16,26 @@ switch {
   border: 1px solid rgba(170, 170, 170, 0.4);
 
   &:disabled {
-    background-color: $insensitive_bg_color;
+    background-color: $backdrop_bg_color;
   }
 
   &:backdrop {
-    background-color: $backdrop_bg_color;
+    background-color: $insensitive_bg_color;
     transition: $backdrop_transition;
 
-    &:disabled { background-color: $insensitive_bg_color; }
+    &:disabled { background-color: $backdrop_bg_color; }
   }
 
 
   &:active,
   &:checked {
-    border: 1px solid $teal;
+    border: 1px solid $selected_bg_color;
     slider{
-      background: $teal;
+      background: $selected_bg_color;
     }
     &:backdrop {
-      border: 1px solid $teal;
-     
+      border: 1px solid $selected_bg_color;
+
       slider {
         &:backdrop {
           box-shadow:none;
@@ -55,12 +55,12 @@ switch {
 
     border-radius: 100%;
     transition: $button_transition;
-    background-color: rgba(170, 170, 170, 0.6);
+    background-color: $white;
 
     &:backdrop {
       padding:2px;
       box-shadow:none;
-      background-color:$base_color;
+      background-color: rgba(170, 170, 170, 0.6);
     }
   }
 

@@ -6,7 +6,7 @@ $base_color: $monokai_black;
 $text_color: $monokai_white;
 $bg_color: $monokai_grey;
 $fg_color: $monokai_white;
-$switch_bg: if($variant == 'light', $monokai_white, transparentize(black,1));
+$switch_bg: $monokai_black;
 $shadow_color: rgba(162, 162, 165, 0.21);
 
 $main_dark_color: $monokai_grey;
@@ -21,7 +21,7 @@ $purple: $monokai_purple;
 $darkpurple: #7b7bbd;
 $blue: $monokai_blue;
 $cyan: $monokai_cyan;
-$teal: $nord14;
+$teal: $monokai_cyan;
 $white: $monokai_white;
 
 
