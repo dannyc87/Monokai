@@ -161,14 +161,14 @@
 
       outline-offset: -5px;
 
-      color: $insensitive_fg_color;
+      color: darken($fg_color, 10%);
       font-weight: normal;
 
       border-width: 1px;         // for reorderable tabs
       border-color: transparent; //
 
       &:hover {
-        color: mix($insensitive_fg_color, $fg_color, 50%);
+        color: $fg_color;
 
         &.reorderable-page {
           border-color: transparentize($borders_color, 0.7);

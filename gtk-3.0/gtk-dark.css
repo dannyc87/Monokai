@@ -3140,12 +3140,12 @@ notebook > header {
     min-width: 24px;
     padding: 1px 12px;
     outline-offset: -5px;
-    color: #322e2a;
+    color: #e6e6d1;
     font-weight: normal;
     border-width: 1px;
     border-color: transparent; }
     notebook > header tab:hover {
-      color: #95938e; }
+      color: #F8F8F2; }
       notebook > header tab:hover.reorderable-page {
         border-color: rgba(26, 26, 22, 0.3);
         background-color: rgba(77, 72, 66, 0.2); }
